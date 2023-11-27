@@ -25,11 +25,13 @@ kernel/drivers/usb/class/cdc-acm.ko
 kernel/drivers/usb/serial/usbserial.ko
 kernel/drivers/usb/serial/ftdi_sio.ko
 kernel/drivers/pps/clients/pps-gpio.ko
+kernel/drivers/watchdog/softdog.ko
 kernel/drivers/bluetooth/hci_uart.ko
 kernel/drivers/bluetooth/btsdio.ko
 kernel/drivers/bluetooth/btbcm.ko
 kernel/drivers/bluetooth/btqca.ko
 kernel/net/8021q/8021q.ko
+kernel/net/wireless/cfg80211.ko
 kernel/net/can/can.ko
 kernel/net/can/can-raw.ko
 kernel/net/can/can-bcm.ko
@@ -59,7 +61,6 @@ kernel/net/nfc/nfc.ko
 kernel/lib/crypto/libarc4.ko
 extra/private/google-modules/soc/gs/drivers/pinctrl/pinctrl-slg51000.ko
 extra/private/google-modules/soc/gs/drivers/regulator/slg51000-regulator.ko
-extra/private/google-modules/soc/gs/drivers/misc/s5910/s5910.ko
 extra/private/google-modules/soc/gs/drivers/mfd/slg51000-core.ko
 extra/private/google-modules/soc/gs/drivers/input/misc/vl53l1/stmvl53l1.ko
 extra/private/google-modules/display/samsung/panel/panel-common.ko
@@ -78,6 +79,11 @@ extra/private/google-modules/amplifiers/cs40l25/snd_soc_cs40l2x.ko
 extra/private/google-modules/touch/common/goog_touch_interface.ko
 extra/private/google-modules/touch/fts/ftm5/ftm5.ko
 extra/private/google-modules/touch/sec/sec_touch.ko
+extra/private/google-modules/bluetooth/broadcom/nitrous.ko
+extra/private/google-modules/uwb_legacy/kernel/net/mcps802154/mcps802154.ko
+extra/private/google-modules/uwb_legacy/kernel/net/mcps802154/mcps802154_region_fira.ko
+extra/private/google-modules/uwb_legacy/kernel/net/mcps802154/mcps802154_region_nfcc_coex.ko
 extra/private/google-modules/uwb_legacy/kernel/net/mcps802154/mcps802154_region_pctt.ko
+extra/private/google-modules/uwb_legacy/kernel/drivers/net/ieee802154/dw3000.ko
 extra/private/google-modules/uwb_legacy/kernel/drivers/net/ieee802154/dw3000-core-tests.ko
 extra/private/google-modules/video/gchips/bigocean.ko
