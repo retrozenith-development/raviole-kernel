@@ -1,4 +1,10 @@
 kernel/mm/zsmalloc.ko
+kernel/drivers/misc/eeprom/at24.ko
+kernel/drivers/misc/open-dice.ko
+kernel/drivers/scsi/sg.ko
+kernel/drivers/spi/spidev.ko
+kernel/drivers/i2c/i2c-dev.ko
+kernel/drivers/perf/arm-cmn.ko
 extra/private/google-modules/soc/gs/drivers/phy/samsung/phy-exynos-usbdrd-super.ko
 extra/private/google-modules/soc/gs/drivers/phy/samsung/phy-exynos-mipi-dsim.ko
 extra/private/google-modules/soc/gs/drivers/phy/samsung/phy-exynos-mipi.ko
@@ -172,8 +178,10 @@ extra/private/google-modules/bms/max77779_pmic.ko
 extra/private/google-modules/bms/max77779_pmic_irq.ko
 extra/private/google-modules/bms/max77779_pmic_pinctrl.ko
 extra/private/google-modules/bms/max77779_pmic_sgpio.ko
+extra/private/google-modules/bms/ln8411.ko
 extra/private/google-modules/bms/misc/gvotable.ko
 extra/private/google-modules/bms/misc/logbuffer.ko
+extra/private/google-modules/display/samsung/panel/panel-common.ko
 extra/private/google-modules/display/samsung/panel/panel-samsung-drv.ko
 extra/private/google-modules/display/samsung/panel/panel-samsung-emul.ko
 extra/private/google-modules/display/samsung/panel/panel-samsung-s6e3hc2.ko

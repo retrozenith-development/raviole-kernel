@@ -1,11 +1,5 @@
-kernel/drivers/misc/eeprom/at24.ko
-kernel/drivers/misc/open-dice.ko
-kernel/drivers/scsi/sg.ko
-kernel/drivers/spi/spidev.ko
-kernel/drivers/i2c/i2c-dev.ko
 kernel/drivers/pps/clients/pps-gpio.ko
 kernel/drivers/watchdog/softdog.ko
-kernel/drivers/perf/arm-cmn.ko
 kernel/drivers/perf/arm_dsu_pmu.ko
 kernel/net/wireless/cfg80211.ko
 kernel/net/mac80211/mac80211.ko
@@ -16,8 +10,6 @@ extra/private/google-modules/soc/gs/drivers/input/misc/vl53l1/stmvl53l1.ko
 extra/private/google-modules/amplifiers/cs40l25/haptics-cs40l2x.ko
 extra/private/google-modules/amplifiers/cs40l25/snd_soc_cs40l2x.ko
 extra/private/google-modules/bluetooth/broadcom/nitrous.ko
-extra/private/google-modules/bms/ln8411.ko
-extra/private/google-modules/display/samsung/panel/panel-common.ko
 extra/private/google-modules/display/samsung/panel/panel-samsung-s6e3fc3-p10.ko
 extra/private/google-modules/display/samsung/panel/panel-samsung-s6e3hc3-c10.ko
 extra/private/google-modules/display/samsung/panel/panel-samsung-s6e3hc4.ko
