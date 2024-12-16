@@ -69,6 +69,7 @@ extra/private/google-modules/soc/gs/drivers/soc/google/cpif/cpif_page.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/cpif/cpif.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/cpif/cp_thermal_zone.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/eh/eh.ko
+extra/private/google-modules/soc/gs/drivers/soc/google/gcma/gcma.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/s2mpu/s2mpu.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/hardlockup-debug.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/hardlockup-watchdog.ko
@@ -78,6 +79,7 @@ extra/private/google-modules/soc/gs/drivers/soc/google/dbgcore-dump.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/exynos-seclog.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/pkvm-s2mpu/pkvm-s2mpu/pkvm-s2mpu.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/boot_control/boot_control_sysfs.ko
+extra/private/google-modules/soc/gs/drivers/soc/google/perf_trace_counters.ko
 extra/private/google-modules/soc/gs/drivers/regulator/max77826-gs-regulator.ko
 extra/private/google-modules/soc/gs/drivers/regulator/pmic_class.ko
 extra/private/google-modules/soc/gs/drivers/regulator/s2mpg10-regulator.ko
@@ -96,7 +98,7 @@ extra/private/google-modules/soc/gs/drivers/misc/sbb-mux/sbb-mux.ko
 extra/private/google-modules/soc/gs/drivers/misc/sscoredump/sscoredump.ko
 extra/private/google-modules/soc/gs/drivers/mfd/s2mpg10-mfd.ko
 extra/private/google-modules/soc/gs/drivers/mfd/s2mpg11-mfd.ko
-extra/private/google-modules/soc/gs/drivers/mfd/s2mpg1x-gpio.ko
+extra/private/google-modules/soc/gs/drivers/mfd/s2mpg1x-gpio-gs101.ko
 extra/private/google-modules/soc/gs/drivers/dma-buf/heaps/samsung/samsung_dma_heap.ko
 extra/private/google-modules/soc/gs/drivers/ufs/ufs-exynos-gs.ko
 extra/private/google-modules/soc/gs/drivers/ufs/ufs-pixel-fips140.ko
@@ -133,13 +135,13 @@ extra/private/google-modules/soc/gs/drivers/watchdog/s3c2410_wdt.ko
 extra/private/google-modules/soc/gs/drivers/cpufreq/exynos-acme.ko
 extra/private/google-modules/soc/gs/drivers/clocksource/exynos_mct.ko
 extra/private/google-modules/soc/gs/drivers/devfreq/google/exynos_devfreq.ko
-extra/private/google-modules/soc/gs/drivers/devfreq/google/arm-memlat-mon-legacy.ko
-extra/private/google-modules/soc/gs/drivers/devfreq/google/governor_memlat.ko
-extra/private/google-modules/soc/gs/drivers/devfreq/google/memlat-devfreq.ko
+extra/private/google-modules/soc/gs/drivers/performance/gs_perf_mon/gs_perf_mon.ko
+extra/private/google-modules/soc/gs/drivers/performance/lat_governors/gs_governor_memlat.ko
+extra/private/google-modules/soc/gs/drivers/performance/lat_governors/gs_governor_dsulat.ko
+extra/private/google-modules/soc/gs/drivers/performance/lat_governors/gs_governor_utils.ko
 extra/private/google-modules/soc/gs/drivers/iio/power/odpm_legacy.ko
 extra/private/google-modules/soc/gs/drivers/bts/bts.ko
 extra/private/google-modules/soc/gs/drivers/block/zram/zram_gs.ko
-extra/private/google-modules/soc/gs/drivers/block/zram/zcomp_cpu.ko
 extra/private/google-modules/soc/gs/drivers/block/zram/zcomp_eh.ko
 extra/private/google-modules/amplifiers/audiometrics/audiometrics.ko
 extra/private/google-modules/amplifiers/cs35l41/snd-soc-cs35l41.ko
@@ -189,7 +191,6 @@ extra/private/google-modules/display/samsung/panel/panel-samsung-s6e3fc3.ko
 extra/private/google-modules/display/samsung/panel/panel-samsung-sofef01.ko
 extra/private/google-modules/display/samsung/panel/panel-samsung-s6e3hc3.ko
 extra/private/google-modules/display/samsung/exynos-drm.ko
-extra/private/google-modules/edgetpu/abrolhos/drivers/edgetpu/abrolhos.ko
 extra/private/google-modules/gps/broadcom/bcm47765/bcm47765.ko
 extra/private/google-modules/gpu/mali_kbase/mali_kbase.ko
 extra/private/google-modules/gpu/mali_pixel/mali_pixel.ko
